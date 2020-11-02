@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="Test Suite" skipped="0" tests="1" time="65.411">
+
+<testcase classname="Flight Booking" name="Verify decilned message" time="64.976">
+            
+    <system-out><![CDATA[Given Login with gmail "joseph250395@gmail.com" and "pallenjoykurian".......passed
+Given I search filghts from "Dublin" to "London Luton" on "2020-11-08" for 2 adults and 1 child.passed
+And I select the flight.....................................................passed
+And I enter the adults information..........................................passed
+And I enter the child information...........................................passed
+And I proceed to continue and checkout......................................passed
+And I provide phoneNumber as "0899434539"...................................passed
+And I enter CardPayment details as "5555 5555 5555 5557", "1/21" and "265" for "Joseph Joy" , "3 Ashlawn" , "Letterkenny" , "Ireland" , "f92avy1".passed
+When on clicking PayNow button with invalid values..........................passed
+Then I should get payment declined message..................................passed
+]]></system-out>
+        
+</testcase>
+
+</testsuite>
